@@ -18,4 +18,3 @@ console.log(typeof null); // objeto
 console.log(typeof undefined); // undefined
 
 console.log(typeof false); // booleano
-
