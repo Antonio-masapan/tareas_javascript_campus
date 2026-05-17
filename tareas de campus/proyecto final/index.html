@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Generador de contraseñas</title>
+
+    <link rel="stylesheet" href="/tareas de campus/proyecto final/style.css" />
+
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <h1>Generador de contraseñas</h1>
+
+      <input
+        type="text"
+        id="contrasena"
+        placeholder="La contraseña aparecerá aquí..."
+      />
+
+      <div class="configuraciones">
+        <p>Longitud de caracteres</p>
+        <input type="range" id="longitud" min="8" max="20" />
+        <div class="opciones">
+          <input type="checkbox" id="mayusculas" />
+          <span> Incluir mayúsculas </span>
+        </div>
+
+        <div class="opciones">
+          <input type="checkbox" id="minusculas" />
+          <span> Incluir minúsculas </span>
+        </div>
+
+        <div class="opciones">
+          <input type="checkbox" id="numeros" />
+          <span> Incluir números </span>
+        </div>
+
+        <div class="opciones">
+          <input type="checkbox" id="simbolos" />
+          <span> Incluir símbolos </span>
+        </div>
+
+        <button id="boton">Generar</button>
+      </div>
+    </div>
+    <script src="/tareas de campus/proyecto final/script.js"></script>
+  </body>
+</html>
